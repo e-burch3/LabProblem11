@@ -50,7 +50,7 @@ int main(void) {
 	
 	
 }
-
+   
 
 
 int findRowIndex(int thisRow) {
