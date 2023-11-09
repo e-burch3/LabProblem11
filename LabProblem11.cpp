@@ -22,6 +22,7 @@ const int ERROR = 100;
 int findRowIndex(int thisRow);
 int findSeatIndex(char thisSeat);
 void displaySeatColumn(char seats[][ROWS], int column);
+
 void setSeats(char seats[COLUMNS][ROWS]);
 void displaySeatChart(char seats[][ROWS]);
 int getRow(string str);
@@ -31,7 +32,7 @@ void getSeat(char seats[][ROWS], string str);
 int main(void) {
 	string input;
 
-	
+	   
 	char seat[COLUMNS][ROWS];
 	setSeats(seat);
 
